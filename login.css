@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 400px;
+    width: 1000px;
+    background-image: url("https://logos-world.net/wp-content/uploads/2020/12/Discord-Symbol.png");
+    background-size: cover;
+}
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding-right: 49px;
+    padding-left: 30px;
+    height: 390px;
+    margin-top: auto;
+}
+h1 {
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(254, 97, 97);
+}
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.google{
+    height: 50px;
+    width: 60px;
+    border-radius: 20px;
+}
+.facebook{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+.twitter{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
